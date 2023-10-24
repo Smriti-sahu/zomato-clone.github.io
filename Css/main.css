@@ -1,0 +1,264 @@
+section{
+    /* margin: auto; */
+    /* width: 85%; */
+    /* margin-top: 5%; */
+    /* border: 2px solid red; */
+    margin: 3%;
+    
+}
+
+section> main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+section >main>div{
+    border: 1px solid rgb(185, 185, 185);
+    position: relative;
+    border-radius: 5px;
+    /* max-width: 75%; */
+}
+section >main>div:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+section >main> div img{
+    height: 210px;
+    width: 365px;
+    border-radius: 5px;
+}
+
+section> main >div > div+div{
+    /* border: 2px solid blue; */
+    border: 1px solid rgb(185, 185, 185);
+
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    font-size: 20px;
+    height: 65px;
+    width: 99.9%;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 1%;
+    color: rgb(46, 44, 44);
+    /* padding-left: 2%; */
+}
+section> main >div +div div+div{
+    max-width: 100%;
+}
+section> main >div > div+div p+p{
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(56, 54, 54);
+    
+}
+
+
+
+
+
+/* Colllection part */
+
+section article{
+    /* border: 2px solid black; */
+    margin-top: 7%;
+    margin: 5%;
+}
+
+section article h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight:200 ;
+}
+section article p{
+    margin-top: 0.5%;
+    font-size: 15px;
+}
+section article p span{
+    color: red;
+    padding-left: 120px;
+}
+section article>div{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+section article>div >div>div:hover{
+    cursor: pointer;
+}
+section article>div >div>div p{
+    color:#fff;
+    padding-left: 1%;
+    height: 320px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Popular localities in and around Hyderabad */
+
+
+section>#cities{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin: 5%;
+}
+section>#cities h1{
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: rgb(77, 76, 76);
+
+}
+section>#cities h1 span{
+    font-weight: 500;
+    font-size: 39px;
+}
+section>#cities>div{
+    /* border: 2px solid rgb(120, 122, 122); */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5%;
+    color: rgb(77, 76, 76);
+    font-weight: 100;
+}
+section>#cities >div+div{
+    margin-top: 2%;
+}
+section>#cities >div>div:hover{
+    cursor: pointer;
+    box-shadow: 0.9px 0.9px rgb(211, 209, 209);
+}
+section>#cities >div>div{
+    border: 2px solid rgb(231, 231, 235);
+    width: 360px;
+    height: 70px;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+section>#cities >div>div .location{
+    font-size: 23px;
+    padding-top: 10px;   
+}
+section>#cities >div>div .location+p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+section>#cities >div>div > div{
+    /* border: 2px solid red; */
+    width: 80%;
+}
+section>#cities >div>div > div+div{
+    font-size: 20px;
+    width: 20%;
+    padding-top: 6%;
+    padding-left: 8%;
+} 
+
+
+
+/*  */
+
+#email-box{
+    margin: auto;
+    width: 85%;
+    /* margin-top: 3%; */
+    /* border: 2px solid red; */
+    background-color: rgb(255, 251, 247);
+    /* height: 500px; */
+    color:black ;
+    margin-top: 5%;
+}
+
+#email-box aside{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    /* margin-left: 15%; */
+}
+#email-box div img{
+    height: 390px;
+    margin-left: 8%;
+    margin-top: 20%;
+}
+#email-box div h1{
+    font-size: 42px;
+    margin-top: 5%;
+}
+#email-box div p{
+    margin-top: 2%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#email-box input[type="radio"]{
+    accent-color: crimson;
+    margin-top: 5%;  
+
+}
+#email-box input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+#email-box input[type="radio"]+ input[type="radio"]{
+    margin-left: 5%;
+}
+
+#email-box input[type="email"]{
+    height: 45px;
+    width: 250px;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(153, 150, 150);
+}
+#email-box input[type="email"]::placeholder{
+    font-size: 17px;
+    padding-left: 4%;
+}
+#email-box button{
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    background-color: rgb(241, 79, 79);
+    border: none;
+    color: white;
+    border-radius:5px ;
+}
+#email-box .download{
+    font-size: 14px;
+    color: rgb(71, 69, 69);
+    
+}
+#email-box>div>div{
+    display: flex;
+    flex-direction: row;
+}
+#email-box div+div img{
+    height: 40px;
+    margin: 0%;
+    margin-top: 2%;
+}
+#email-box button:hover{
+    cursor: pointer;
+    background-color:  rgb(223, 101, 101);
+}
+#email-box div+div img:hover{
+    cursor: pointer;
+}
+
+/* Explore options near me */ 

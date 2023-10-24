@@ -1,0 +1,259 @@
+@media (min-width: 501px) and (max-width: 768px){
+
+
+    header{
+        height: 100vh !important;
+    } 
+    header div ol nav{
+        /* display: none !important; */
+        font-size: 10px !important;
+    }
+
+    header div ol a i{
+        /* display: block !important; */
+        visibility: visible;
+        color: #fff;
+        font-size: 25px !important;
+    }
+
+    header h2{
+        font-size: 15px !important;
+        height: 40px !important;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    header main{
+        /* display: none !important; */
+        margin-left: 10% !important;
+        width: 80% !important;
+    }
+    header main div+div+div input[type="search"]::placeholder{
+        font-size: 12px !important;
+         }
+    header main div+div+div i{
+        font-size: 10px !important;
+    }
+    header main div i+span +i{
+        display: none !important;
+    }
+    header main div i{
+        font-size: 12px !important;
+    }
+    header main div span{
+        font-size: 10px;
+    }
+    #z-img{
+        height: 150px !important;
+    }
+
+    header h2{
+        height: 60px !important;
+        display: flex;
+        align-items: center !important;
+    }
+
+
+
+
+    section> main{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        gap: 20px;
+    }
+    section >main> div img{
+        max-width: 295px;
+        height: 200px;
+    }
+    section> main >div > div+div{
+        font-size: 15px;
+    }  
+    section> main >div > div+div p+p{
+        font-size: 15px;
+    }
+    section article p span{
+        display: none;
+    }
+
+
+    section>#cities h1 span{
+        font-size: 25px;
+    }
+    section>#cities h1{
+        font-size: 20px;    
+    }
+    section>#cities >div>div .location{
+        font-size: 18px;
+        }
+
+
+
+        #email-box aside{
+            display: flex;
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+            width: 300px;
+        }
+        #email-box div h1{
+            width: 400px;
+            font-size: 35px;
+
+        }
+
+        #email-box div p{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 500px;
+            font-size: 15px;
+        }
+        #email-box button{
+            margin-top: 5%;
+        }
+        #email-box div div{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+
+                    
+            /* --------------------------------------------------------------------- */
+
+            #explore div>div>details summary::after{
+                display: none;
+                /* margin-left: 80px; */
+            }
+
+            #explore div>div>details>summary{
+                font-size: 16px;
+                padding: 3%;
+            }
+            #explore h1{
+                font-size: 25px;
+                margin-top: 10%;
+                margin-bottom: 8%;
+            }
+
+            #explore div>div>details p{
+                font-size: 12px;
+            }
+            #explore >div{
+                margin-top: 5%;
+            }
+
+            /* --------------------------------------------------------------------- */
+
+
+        footer #foot1{
+            display: flex;
+            flex-direction: row;
+        }
+        footer .foot2{
+            display: flex;
+            flex-direction: row;
+        }
+        #foot1 div+div{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        footer>p{
+            font-size: 10px;
+        }
+        footer .foot2 ol{
+            font-size: 11px;
+           
+        }
+        footer .foot2 ol li+li{
+            font-size: 12px;
+        }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+ 
+    header div ol nav{
+        /* display: none !important; */
+        font-size: 13px !important;
+    }
+
+
+    section article p span{
+        display: none;
+    }
+
+    section>#cities h1 span{
+        font-size: 30px;
+    }
+    section>#cities h1{
+        font-size: 25px;    
+    }
+    section>#cities >div>div .location{
+        font-size: 18px;
+        }
+
+
+/* --------------------------------------- */
+        #email-box aside{
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: center;
+            flex-direction: row;
+            /* width: 300px; */
+        }
+
+        #email-box div h1{
+            /* width: 400px; */
+            font-size: 35px;
+
+        }
+
+        #email-box div p{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            /* width: 500px; */
+            font-size: 15px;
+        }
+        #email-box button{
+            margin-top: 5%;
+        }
+        #email-box div div{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        #email-box div img{
+            height: 350px;
+        }
+
+
+
+
+/* --------------------------------------------------------------------- */
+
+        #explore div>div>details summary::after{
+            display: none;
+            /* margin-left: 80px; */
+        }
+
+        #explore div>div>details>summary{
+            font-size: 16px;
+            padding: 3%;
+        }
+        #explore h1{
+            font-size: 25px;
+            margin-top: 10%;
+            margin-bottom: 8%;
+        }
+
+        #explore div>div>details p{
+            font-size: 12px;
+        }
+        #explore >div{
+            margin-top: 5%;
+        }
+
+}

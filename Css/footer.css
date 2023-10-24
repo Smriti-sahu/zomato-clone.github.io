@@ -1,0 +1,94 @@
+footer{
+    background-color: rgb(248, 248, 248);
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 2%;
+}
+footer #foot1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer>div>div>img{
+    height: 30px;
+}
+
+#foot1 div+div{
+    display: flex;
+    gap: 10px;
+}
+footer>div button{
+    height: 35px;
+    width: 120px;
+    font-size: 19px;
+    background-color: none;
+    padding: 1%;
+
+    /* margin-left: 1%; */
+}
+footer>div button img{
+    height: 17px;
+}
+
+
+footer .foot2{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+footer .foot2 ol{
+    /* border: 2px solid rgb(27, 236, 8); */
+    list-style: none;
+    line-height: 28px;
+    font-size: 15px;
+   
+}
+footer .foot2 ol li  ,.Social > p{
+    font-weight: 570;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+}
+footer .foot2 ol li+li{
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(114, 113, 113);
+    letter-spacing: 1px;
+}
+footer .foot2 div img{
+    height: 40px;
+    margin-top: 8%;
+}
+
+.Social > div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 10%;
+  width: 180px;
+}
+.Social > div div{
+    background-color: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+footer>hr{
+    margin-top: 2%;
+}
+footer>p{
+    font-size: 14px;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    color: rgb(88, 88, 88);
+}
+footer>h4{
+    color: #f00;
+    font-size: 15px;
+    padding-bottom: 3%;
+}

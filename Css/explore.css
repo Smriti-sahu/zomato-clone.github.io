@@ -1,0 +1,84 @@
+#explore{
+    /* border: 2px solid blue; */
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 5%;
+}
+#explore{
+    margin-top: 5%;
+}
+
+#explore>div:hover{
+    cursor: pointer;
+}
+#explore>div{
+    /* background-color: red; */
+    font-size: 18px;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 3%;
+    /* height: 50px; */
+}
+#explore h1{
+   font-weight: 500;
+}
+#explore div>div>details>summary{
+    /* background-color: aqua; */
+    padding-left: 2%;
+    list-style: none;
+    padding-top: 0.5%;
+    padding-bottom: 1.5%;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(95, 93, 93);
+}
+#explore div>div>details p{
+    padding: 2%;
+    color: rgb(97, 96, 96);
+}
+#explore div>div>details summary::after{
+        content: url(../Image/chevron-down-regular-36.png);
+        margin-left: 800px;
+}
+
+#explore div>div>details[open] summary::after
+{
+    content: url(../Image/chevron-up-regular-36.png);
+    margin-left: 800px;
+}
+
+
+#explore div+div>div>details summary::after{
+    content: url(../Image/chevron-down-regular-36.png);
+    margin-left: 730px;
+}
+
+#explore div+div>div>details[open] summary::after
+{
+content: url(../Image/chevron-up-regular-36.png);
+margin-left: 730px;
+}
+
+#explore div+div+div>div>details summary::after{
+    content: url(../Image/chevron-down-regular-36.png);
+    margin-left: 825px;
+}
+
+#explore div+div+div>div>details[open] summary::after
+{
+content: url(../Image/chevron-up-regular-36.png);
+margin-left: 825px;
+}
+
+#explore div+div+div+div>div>details summary::after{
+    content: url(../Image/chevron-down-regular-36.png);
+    margin-left: 850px;
+}
+
+#explore div+div+div+div>div>details[open] summary::after
+{
+content: url(../Image/chevron-up-regular-36.png);
+margin-left: 850px;
+}

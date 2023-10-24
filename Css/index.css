@@ -1,0 +1,117 @@
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./explore.css);
+@import url(./mobile.css);
+@import url(./tablet.css);
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+}
+header{
+    background-image: url("../Image/main.png");
+    height: 450px;
+    background-size:cover ;
+    color: white;
+}
+header>div{
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 83%;
+    margin: auto;
+}
+header div ol{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    list-style: none;
+    padding-top: 2%;
+    /* margin-top: 2%; */
+}
+header div ol>li{
+    font-size: 15px;
+}
+header div ol li:hover {
+    cursor: pointer;
+}
+header div ol nav{
+    /* border: 2px solid red; */
+    width:45%;
+    display: flex;
+    /* margin-left: 45%; */
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 100;
+}
+#z-img{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: flex-end;
+}
+#z-img img{
+    /* border: 2px solid red; */
+    height: 55px;
+    font-weight: 800;
+}
+header h2{
+    font-size: 38px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 100;
+}
+header div ol a i{
+    visibility: hidden;
+}
+
+header main{
+    /* border: 2px solid red; */
+    width: 56%;
+    margin-left: 21%;
+    color: black;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 2%;
+    justify-content: center;
+}
+header main div{
+    width: 32%;
+    padding: 1%;
+}
+header main div i{
+    font-size: 20px;
+    /* padding-top: 1%; */
+}
+header main div i+i{
+    font-size: 15px;
+    margin-left: 40%;
+}
+header main div+div input[type="search"]{
+    width: 90%;  
+    border: none;
+    height: 30px;
+    padding-top: 0%;
+}
+header main .vr{
+    width: 1%;
+    border-left: 1px solid rgb(151, 148, 148);
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+header main div+div+div input[type="search"]::placeholder{
+    font-size: 17px;
+    /* padding-top: 0%; */
+}
+header main div+div+div{
+    /* border: 2px solid black; */
+    width: 70%;
+}
+header main div+div+div i{
+    font-size: 25px;
+    color: rgb(117, 109, 109);
+}

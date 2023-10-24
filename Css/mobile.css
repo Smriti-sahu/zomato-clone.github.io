@@ -1,0 +1,203 @@
+
+@media (min-width: 300px) and (max-width: 500px){
+
+
+    header{
+        height: 80vh !important;
+    } 
+    header div ol nav{
+        display: none !important;
+    }
+
+    header div ol a i{
+        /* display: block !important; */
+        visibility: visible;
+        color: #fff;
+        font-size: 25px !important;
+    }
+
+    header h2{
+        font-size: 15px !important;
+        height: 40px !important;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    header main{
+        /* display: none !important; */
+        margin-left: 10% !important;
+        width: 80% !important;
+    }
+    header main div+div+div input[type="search"]::placeholder{
+        font-size: 12px !important;
+         }
+    header main div+div+div i{
+        font-size: 10px !important;
+    }
+    header main div i+span +i{
+        display: none !important;
+    }
+    header main div i{
+        font-size: 12px !important;
+    }
+    header main div span{
+        font-size: 10px;
+    }
+    #z-img{
+        height: 150px !important;
+    }
+
+    header h2{
+        height: 60px !important;
+        display: flex;
+        align-items: center !important;
+    }
+
+
+
+
+    section> main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    section >main> div img{
+        max-width: 295px;
+        height: 200px;
+    }
+    section> main >div > div+div{
+        font-size: 15px;
+    }  
+    section> main >div > div+div p+p{
+        font-size: 15px;
+    }
+
+
+
+    section article h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    section article p{
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    section article p span{
+        display: none;
+    }
+    section article>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+/* ------------------------------- */
+    section>#cities h1 span{
+        font-size: 20px;
+    }
+    section>#cities h1{
+        font-size: 15px;    
+    }
+    section>#cities >div>div .location{
+        font-size: 18px;
+        }
+
+
+
+
+        /* ======================================== */
+
+
+        #email-box aside{
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-direction: column; */
+            /* width: 300px; */
+        }
+
+        #email-box div h1{
+            /* width: 300px; */
+            font-size: 25px;
+        }
+
+        #email-box div p{
+            /* border: 2px solid red; */
+            margin-top: 5px;
+            /* width: 300px; */
+            font-size: 13px;
+        }
+        #email-box button{
+            margin-top: 5%;
+        }
+        #email-box div div{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        #email-box div img{
+            height: 300px;
+        }
+
+
+
+
+/* --------------------------------------------------------------------- */
+
+        #explore div>div>details summary::after{
+            display: none;
+            /* margin-left: 80px; */
+        }
+
+        #explore div>div>details>summary{
+            font-size: 16px;
+            padding: 3%;
+        }
+        #explore h1{
+            font-size: 25px;
+            margin-top: 10%;
+            margin-bottom: 8%;
+        }
+
+        #explore div>div>details p{
+            font-size: 12px;
+        }
+        #explore >div{
+            margin-top: 5%;
+        }
+
+
+
+
+
+        /* --------------------------------------------------------------------- */
+
+
+        footer #foot1{
+            display: flex;
+            flex-direction: column;
+        }
+        footer .foot2{
+            display: flex;
+            flex-direction: column;
+        }
+        #foot1 div+div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        footer>p{
+            font-size: 8.5px;
+        }
+        footer .foot2 ol{
+            font-size: 13px;
+           
+        }
+        footer .foot2 ol li+li{
+            font-size: 13px;
+        }
+
+}
